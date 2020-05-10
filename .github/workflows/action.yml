@@ -1,0 +1,12 @@
+name: 'Github Actions Weather Forcast'
+
+on: push
+
+jobs: 
+  bot:
+    steps:
+      uses: actions/setup-node@v1
+      run: npm install
+      run: node index.js
+      env: 
+        WEATHER_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}

@@ -1,0 +1,19 @@
+{
+  "name": "weather-forecast",
+  "version": "1.0.0",
+  "description": "Sample weather Forcast app",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-personel:murtaza-bagwala/github-actions.git"
+  },
+  "author": "Murtaza Bagwala",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "8.2.0",
+    "node-fetch": "2.6.0"
+  }
+}
