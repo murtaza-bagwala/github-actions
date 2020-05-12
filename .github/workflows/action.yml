@@ -1,9 +1,10 @@
 name: 'Github Actions Weather Forcast'
 
-on: push
+on: [push]
 
 jobs: 
-  bot:
+  build:
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/setup-node@v1
     - run: npm install
