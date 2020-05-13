@@ -8,6 +8,6 @@ jobs:
     steps:
     - uses: actions/setup-node@v1
     - run: npm install
-    - run: node index.js
+    - run: npm start
       env: 
         WEATHER_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
